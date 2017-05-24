@@ -56,6 +56,7 @@
 				// Called by the main commitContent call on dialog confirmation.
 				commit: function (element) {
 					element.setAttribute('src', this.getValue());
+                    element.setAttribute('data-cke-saved-src', this.getValue());
 				}
 			},
 			{
